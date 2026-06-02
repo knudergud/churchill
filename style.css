@@ -308,7 +308,8 @@ a:hover { color: var(--gold-light); }
 .field-photo img {
   display: block;
   width: 100%;
-  max-height: 480px;
+  height: auto;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
   object-position: top center;
   border: 3px solid rgba(201,168,76,0.4);
